@@ -29,7 +29,7 @@
   <logger name="com.hybris.charon" level="ERROR" />
   <logger name="com.hybris.datahub.modelt" level="DEBUG" />
 
-  <root level="warn">
+  <root level="debug">
     <appender-ref ref="STDOUT" /> <!-- DO NOT CHANGE THIS VALUE -->
   </root>
   <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
