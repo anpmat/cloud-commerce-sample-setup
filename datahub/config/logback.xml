@@ -28,6 +28,8 @@
   <logger name="com.hybris.datahub.service.publication.impl.DeletePublicationRetryEventListener" level="WARN" />
   <logger name="com.hybris.charon" level="ERROR" />
   <logger name="com.hybris.datahub.modelt" level="DEBUG" />
+  <logger name="akka" level="debug" />
+
 
   <root level="debug">
     <appender-ref ref="STDOUT" /> <!-- DO NOT CHANGE THIS VALUE -->
